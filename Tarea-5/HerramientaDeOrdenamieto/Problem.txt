@@ -1,0 +1,48 @@
+HERRAMIENTA DE ORDENAMIENTO!!
+
+El gran TenZ tiene una forma de resolver sus 
+problemas que corresponde a ordenar N números 
+(menores o iguales que M) acorde a sus apariciones.
+
+La forma en que tienen que ordenar es: para dos 
+números A y B, A debe aparecer antes que B si la 
+cantidad de veces que A aparece en el orden original 
+es mayor que el número de veces que aparece B. Si el 
+número de apariciones es igual, el número cuyo valor 
+aparece antes en la entrada debería aparecer antes 
+en la secuencia ordenada.
+
+Debes ayudar a TenZ para crear su herramienta 
+de ordenamiento!
+
+INPUT FORMAT
+
+La primera línea recibe dos enteros N y M.
+
+La segunda línea recibe N enteros Si, 
+que corresponden los números a ordenar.
+
+CONSTRAINTS
+
+1 <= N <= 1000
+1 <= M <= 10^5
+1 <= Si <= M
+
+OUTPUT FORMAT
+
+La salida debe contener N números 
+ordenados en la secuencia correcta
+
+SAMPLE INPUT 0
+7 3
+2 3 3 3 2 1 2
+
+SAMPLE OUTPUT 0
+2 2 2 3 3 3 1
+
+SAMPLE INPUT 1
+4 2
+2 1 2 2 
+
+SAMPLE OUTPUT 1
+2 2 2 1
